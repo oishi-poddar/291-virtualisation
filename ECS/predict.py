@@ -1,16 +1,20 @@
 
 """
 
-Infering hand-written digits
+Recognizing hand-written digits
 
 """
 
+import sklearn
+from sklearn import datasets, svm, metrics
+from sklearn.model_selection import train_test_split
 import time
 import boto3
 import io
 from io import StringIO
 
 # Inference on digits dataset
+
 
 def classify(X_test):
     start = time.time()
