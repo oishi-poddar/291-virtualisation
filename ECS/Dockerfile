@@ -2,9 +2,9 @@ FROM --platform=linux/amd64 python:3
 
 WORKDIR /Users/nidhidhamnani/Documents/courses/fall2022/cse291d/project
 
-COPY digits.py .
+COPY predict.py .
 
-COPY testserver.py .
+COPY app.py .
 
 RUN pip3 install -U scikit-learn
 
