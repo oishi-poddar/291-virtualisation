@@ -23,6 +23,7 @@ The code is structured in following folders:
 - digits_model_training.ipynb - Jupyter notebook to train the digits classification model
 - Dockerfile - dockerfile to create a docker image of the code
 - build_push.sh - code to push the docker image to ECR
+- model.pkl - digits classifier train model pickle
 
 ### 4. client_request_script.py
 
