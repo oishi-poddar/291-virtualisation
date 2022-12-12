@@ -8,6 +8,7 @@ The code is structured in following folders:
 
 - predict.py - contains function to predict the image
 - app.py - runs flask server to run inference
+- inference.service- Gunicorn setvice file
 
 ### 2. ECS
 
